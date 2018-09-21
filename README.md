@@ -26,7 +26,7 @@ Now run: python --version to validate new environment settings.
 
 # Required Packages
 
-To invoke Weka from Python these packages are required<br>
+To use Data Mininf Capabilities of Python, these packages are required<br>
 <ul>
   <li>Pip</li>
   <li>Numpy</li>
