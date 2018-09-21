@@ -62,6 +62,18 @@ Run <b>python -m pip install pandas</b><br><br>
 # Installing Sci-Kit Learn
 Run <b>python -m pip install -U scikit-learn</b><br><br>
 
+# Common Errors
+
+If at anytime you get these errors: <br><br>
+<ul>
+<li>Microsoft Visual C++ Version 14.0.0 is required.</li><br>
+<b>-->></b>Open control panel click <b>Uninsall A Program</b> and uninstall all instances of Visual Studio and Microsoft Visual C++ you can find. Then, follow <a href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15#" style="margin: 0px !important">this</a> link it will download the required version of Microsoft Visual C++<br><br>
+<li>Could not find a version that satisfies the requirement <package name> (from versions: ) No matching distribution found for <package name> You are using pip version <n>, however version <n++> is available. You should consider upgrading via the 'python -m pip install --upgrade pip' command</li>
+<br><b>-->></b>Run and keep running this command <b>python -m pip install --upgrade pip</b> in Anaconda Prompt until this error is resolved. Pip is sometime upgraded in a few steps.<br><br>
+</ul>
+Now try re-installing the packages again, hopefully they will be installed.<br><br>
+
+
 # Downloading and Running Provided Scripts
 
 Click the green colored <b>Clone or download</b> button on top right corner of this page<br><br>
